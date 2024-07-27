@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Poppins;
+
+  color-scheme: light dark;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+ 
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.participant input [type=text]
+{
+  border:none;
+  border-bottom: 1px solid lightgray;
+}
