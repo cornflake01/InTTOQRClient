@@ -65,7 +65,7 @@ const Contents = () => {
             />
           </div>
           <div className="flex justify-center p-2">
-            <div className="flex flex-col items-center self-center px-16 pt-7 pb-11 mt-6 shadow-inner-custom rounded-3xl border-2 border-white border-solid shadow-sm backdrop-blur-2xl bg-black bg-opacity-15">
+            <div className="flex flex-col items-center self-center px-16 pt-7 pb-11 mt-6 shadow-inner-custom rounded-3xl border-2 border-white border-solid shadow-sm backdrop-blur-2xl bg-white bg-opacity-10">
               <div className="flex flex-col items-center max-w-[1280px] w-full">
                 <div className="justify-center px-16 py-8 text-4xl font-bold text-center shadow-inner-custom text-white rounded-xl max-md:pr-7 max-md:pl-5 max-md:max-w-full"
                 style={{ backgroundColor: '#173518'}}>
