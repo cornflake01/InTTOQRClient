@@ -66,7 +66,7 @@ const Contents = () => {
           </div>
           <div className="flex justify-center p-2">
             <div className="flex flex-col mt-20 items-center self-center px-16 pt-7 pb-11 mt-6 shadow-inner rounded-3xl border-2 border-white border-solid shadow-sm backdrop-blur-3xl bg-white bg-opacity-30">
-              <div className="flex flex-col items-center max-w-[1280px] w-[1020px]">
+              <div className="flex flex-col items-center max-w-[1280px] w-[1200px]">
                 <div className="justify-center px-16 py-8 text-4xl font-semibold text-center shadow-inner-custom text-white rounded-xl max-md:pr-7 max-md:pl-5 max-md:max-w-full"
               >
                   <h2 className="text-[#013200]">CERTIFICATE VERIFICATION</h2>
