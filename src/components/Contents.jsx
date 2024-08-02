@@ -44,7 +44,7 @@ const Contents = () => {
         }}
       >
         <div className="flex flex-col items-center justify-center w-full min-h-full h-full">
-          <div className="flex items-center place-content-center shadow-md text-black w-full min-h-auto h-auto pt-2 pb-2 px-80">
+          <div className="flex items-center place-content-center shadow-inner-custom shadow-md text-black w-full min-h-auto h-auto pt-2 pb-2 px-80">
             <img
               className="h-[45px] w-auto object-contain md:h-[80px] sm:h-[60px]"
               src="/src/assets/uc_logo.png"
@@ -65,11 +65,11 @@ const Contents = () => {
             />
           </div>
           <div className="flex justify-center p-2">
-            <div className="flex flex-col items-center self-center px-16 pt-7 pb-11 mt-6 shadow-inner-custom rounded-3xl border-2 border-white border-solid shadow-sm backdrop-blur-2xl bg-white bg-opacity-10">
-              <div className="flex flex-col items-center max-w-[1280px] w-full">
-                <div className="justify-center px-16 py-8 text-4xl font-bold text-center shadow-inner-custom text-white rounded-xl max-md:pr-7 max-md:pl-5 max-md:max-w-full"
-                style={{ backgroundColor: '#173518'}}>
-                  CERTIFICATE VERIFICATION
+            <div className="flex flex-col mt-20 items-center self-center px-16 pt-7 pb-11 mt-6 shadow-inner rounded-3xl border-2 border-white border-solid shadow-sm backdrop-blur-3xl bg-white bg-opacity-30">
+              <div className="flex flex-col items-center max-w-[1280px] w-[1020px]">
+                <div className="justify-center px-16 py-8 text-4xl font-semibold text-center shadow-inner-custom text-white rounded-xl max-md:pr-7 max-md:pl-5 max-md:max-w-full"
+              >
+                  <h2 className="text-[#013200]">CERTIFICATE VERIFICATION</h2>
                 </div>
                 <div className="flex gap-12 mt-10 max-w-full font-medium w-[468px] max-md:flex-wrap max-md:mt-10">
                   <div className="my-auto text-xl text-center shadow-inner-custom text-white">Event</div>
@@ -121,8 +121,8 @@ const Contents = () => {
                   presence and active involvement. This certificate serves as an
                   official verification of the individual's attendance at the event.
                 </div>
-                <div className="mt-9 max-w-full w-[421px]">
-                  <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                <div className="mt-24 max-w-full w-[542px]">
+                  <div className="flex gap-4 max-md:flex-col max-md:gap-0">
                     <div className="flex flex-col w-[65%] max-md:ml-0 max-md:w-full">
                       <img
                         loading="lazy"
@@ -130,16 +130,20 @@ const Contents = () => {
                         className="grow shrink-0 max-w-full aspect-[1.06] w-[141px] max-md:mt-10"
                         alt="Intto Facebook"
                       />
+                  <div className="my-auto text-xs text-left ml-5 mt-5 text-white">InTTO Facebook</div>
                     </div>
-                    <div className="flex flex-col ml-5 w-[35%] max-md:ml-0 max-md:w-full">
+                    
+                    <div className="flex flex-col ml-12 w-[36%] max-md:ml-0 max-md:w-full">
                       <img
                         loading="lazy"
                         src={InttoIG}
                         className="grow shrink-0 max-w-full aspect-[1.06] w-[141px] max-md:mt-10"
                         alt="Intto Instagram"
                       />
+                      <div className="my-auto text-xs text-left ml-5 mt-5 text-white">InTTO Instagram</div>
                     </div>
                   </div>
+                  <div className="my-auto text-xs text-center mt-5 text-white">Follow us on our socials!</div>
                 </div>
                 {data.certificate && (
                   <div className="lg:mt-5">
